@@ -25,7 +25,7 @@ export default function Post({ params }: { params: { blogid: string } }) {
           Title: {post.title}
         </h1>
         <p className="text-gray-600 mb-8">by {post.author}</p>
-        <div className="prose lg:prose-xl mb-12">{post.content}</div>
+        <div className="prose text-black lg:prose-xl mb-12">{post.content}</div>
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">Comments:</h2>
         <ul className="space-y-4">
           {post.comments.map((comment) => (
