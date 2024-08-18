@@ -5,7 +5,7 @@ export default function Home() {
     <div className="relative min-h-screen">
       <div>
         <Image
-          src={"/./image.jpg"}
+          src={"/image.jpg"}
           objectFit={"cover"}
           alt="blog"
           width={1350}
