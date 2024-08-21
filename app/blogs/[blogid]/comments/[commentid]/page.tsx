@@ -11,24 +11,22 @@ export default function CommmentReplies({
   const comment = post?.comments.find((c) => c.id === commentid);
   if (!post || !comment)
     return (
-      <div className="justify-center size-full flex pt-40 bg-slate-300 min-h-screen text-4xl">
+      <div className="justify-center size-full flex pt-40 bg-neutral-100 min-h-screen text-4xl">
         No Comment Found
       </div>
     );
   return (
-    <div className="bg-white min-h-screen py-10 px-6">
-      <div className="max-w-4xl mx-auto">
-      <h1 className="font-bold text-5xl text-gray-900 mb-6">
-          Comments Thread and Replies
-        </h1>
-        <p className="font-sm text-2xl text-gray-900 mb-6 pt-10">
-          Replies to <u>{comment.content}</u> by <b>{comment.author}</b>
+    <div className="bg-neutral-100 min-h-screen py-10">
+      <div className="max-w-full ">
+       <h1 className="text-2xl py-3 md:text-5xl md:py-5 bg-gradient-to-r from-blue-950 to-cyan-500  hover:text-white mb-6 font-bold text-center">Comments Thread and Replies</h1>
+        <p className="font-sm text-2xl  mb-6 pt-10 text-blue-800">
+          Replies to <u className="text-black">{comment.content}</u> by <b className="text-blue-900">{comment.author}</b>
         </p>
         <ol>
           {comment.replies.map((reply) => (
             <li key={reply.id}>
 
-              {reply.content} by {reply.author}
+              {reply.content} by <b className="text-blue-900">{reply.author}</b>
             </li>
           ))}
         </ol>
