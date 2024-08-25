@@ -25,9 +25,9 @@ export default function Post({ params }: { params: { blogid: string } }) {
           <Image
             src={post.image}
             alt={post.title}
-            width={350}
-            height={100}
-            className="w-full  object-cover rounded-t-lg"
+            width={896}
+            height={0}
+            className="w-full h-auto object-cover rounded-t-lg"
           />
 
         <h1 className="text-md sm:font-bold text-5xl text-blue-950 mt-4">
@@ -54,7 +54,7 @@ export default function Post({ params }: { params: { blogid: string } }) {
                   <h3 className="text-lg font-medium">Replies:</h3>
 
                   {comment.replies.map((reply) => (
-                    <Link href={`/blogs/${post.id}/comments/${comment.id}`}>
+                    <Link href={`/blogs/${post.id}/comments/${comment.id}`} key={reply.id}>
                       {" "}
                       <li key={reply.id}>
                         <b>{reply.author}</b>- {reply.content}
@@ -63,8 +63,8 @@ export default function Post({ params }: { params: { blogid: string } }) {
                   ))}
                 </div>
               )}
-              <Link href={`/blogs/${post.id}/comments/${comment.id}`} >View Comment Details</Link>
-            </li>
+          <Link href={`/blogs/${post.id}/comments/${comment.id}`} >View Comment Details</Link>
+          </li>
           ))}
         </ul>
       </div>

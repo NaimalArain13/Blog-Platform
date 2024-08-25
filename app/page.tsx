@@ -19,7 +19,7 @@ export default function Home() {
       </div>
 
       
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50 pt-10"></div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center  h-full px-4">
@@ -70,7 +70,7 @@ export default function Home() {
         {/* Button */}
         <Link
           href="/blogs"
-          className="mt-4 px-6 py-2 text-sm text-zinc-300  bg-blue-900 rounded-xl hover:bg-blue-950 transition duration-300 text-center font-bold"
+          className="mt-4 px-6 py-2 text-sm text-blue-900  bg-white rounded-xl hover:bg-blue-950 hover:text-white transition duration-300 text-center font-bold"
         >
           Explore our Blog Posts
         </Link>

@@ -26,7 +26,7 @@ const blogPosts: Post[] = [
   {
     id: 1,
     title: "Understanding React",
-    image: "/image.jpg",
+    image: "/id1.jpg",
     content: `React is a popular JavaScript library for building user interfaces, developed and maintained by Facebook. It enables developers to create reusable UI components, making the development process more efficient and manageable.
   
   One of the key concepts in React is the component. Components are the building blocks of a React application. Each component is a self-contained module that encapsulates its structure, style, and behavior. Components can be nested, managed, and handled independently. This modular approach allows developers to build complex applications from simple components.
@@ -77,7 +77,7 @@ const blogPosts: Post[] = [
   {
     id: 2,
     title: "Getting Started with Next.js",
-    image: "/image.jpg",
+    image: "/id2.jpg",
     content: `Next.js is a popular React framework that enables server-side rendering and static site generation, making it a powerful tool for building modern web applications. Developed by Vercel, Next.js provides an intuitive developer experience and out-of-the-box support for many essential features.
   
   One of the main advantages of Next.js is its ability to pre-render pages. This means that Next.js generates HTML for each page in advance, either at build time (static generation) or on each request (server-side rendering). This approach improves the performance and SEO of web applications, as search engines can easily index pre-rendered pages.
@@ -106,7 +106,7 @@ const blogPosts: Post[] = [
   {
     id: 3,
     title: "A Guide to JavaScript ES6",
-    image: "/image.jpg",
+    image: "/id3.jpg",
     content: `ES6, or ECMAScript 2015, introduced many significant improvements to JavaScript, making it more powerful and easier to work with. Some of the most notable features include arrow functions, template literals, destructuring assignment, and enhanced object properties.
   
   Arrow functions provide a concise syntax for writing function expressions. They are particularly useful for short functions and do not have their own \`this\` context, making them a great choice for callbacks and methods that do not require a specific \`this\` context.
@@ -141,7 +141,7 @@ const blogPosts: Post[] = [
   {
     id: 4,
     title: "Introduction to TypeScript",
-    image: "/image.jpg",
+    image: "/id4.png",
     content: `TypeScript is a superset of JavaScript that adds static types, which can greatly enhance development efficiency and code quality. Developed by Microsoft, TypeScript has gained widespread adoption due to its ability to catch errors early and provide a better development experience.
   
   One of the main benefits of TypeScript is its type system. By defining types for variables, function parameters, and return values, developers can catch type-related errors at compile time rather than at runtime. This reduces the likelihood of bugs and makes the codebase more robust.
@@ -170,7 +170,7 @@ const blogPosts: Post[] = [
   {
     id: 5,
     title: "Building REST APIs with Node.js",
-    image: "/image.jpg",
+    image: "/id5.jpg",
     content: `Node.js is a powerful platform for building REST APIs, enabling JavaScript to be used on the server-side. Its event-driven, non-blocking I/O model makes it ideal for developing scalable and efficient APIs.
   
   One of the key advantages of using Node.js for building REST APIs is its single-threaded architecture, which allows it to handle many concurrent connections with minimal overhead. This makes Node.js a great choice for building APIs that need to handle a large number of requests simultaneously.
@@ -203,7 +203,7 @@ const blogPosts: Post[] = [
   {
     id: 6,
     title: "CSS Grid Layout",
-    image: "/image.jpg",
+    image: "/id6.jpg",
     content: `CSS Grid Layout is a two-dimensional layout system for the web. It allows you to create complex layouts using a grid-based approach, making it easier to design responsive and visually appealing web pages.
   
       One of the main advantages of CSS Grid is its ability to create both rows and columns, unlike other layout methods such as Flexbox, which is primarily one-dimensional. This makes CSS Grid ideal for creating intricate layouts that require precise placement of elements.
@@ -232,7 +232,7 @@ const blogPosts: Post[] = [
   {
     id: 7,
     title: "Responsive Web Design",
-    image: "/image.jpg",
+    image: "/id7.jpg",
     content: `Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures that a website looks good and functions properly on desktops, tablets, and mobile devices.
   
   One of the key principles of responsive web design is the use of fluid grids. Instead of using fixed-width layouts, fluid grids use percentages to define the widths of elements. This allows elements to resize proportionally based on the size of the screen, ensuring a consistent layout across different devices.
@@ -267,7 +267,7 @@ const blogPosts: Post[] = [
   {
     id: 8,
     title: "Introduction to GraphQL",
-    image: "/image.jpg",
+    image: "/id8.jpg",
     content: `GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. It provides a more flexible and efficient alternative to traditional REST APIs, allowing clients to request exactly the data they need.
   
   One of the main advantages of GraphQL is its ability to reduce over-fetching and under-fetching of data. With REST APIs, clients often receive more data than they need or have to make multiple requests to get the required data. GraphQL solves this problem by allowing clients to specify the structure of the response, ensuring that they receive only the necessary data in a single request.
@@ -304,7 +304,7 @@ const blogPosts: Post[] = [
   {
     id: 9,
     title: "Understanding Redux",
-    image: "/image.jpg",
+    image: "/id9.jpg",
     content: `Web performance optimization (WPO) is the practice of improving the speed and efficiency of web pages to provide a better user experience. A faster website leads to higher user engagement, better search engine rankings, and increased conversion rates.
   
   One of the key aspects of WPO is reducing the amount of data that needs to be transferred between the server and the client. This can be achieved by compressing images, minifying CSS and JavaScript files, and leveraging browser caching. These techniques help reduce the size of the files that need to be downloaded, leading to faster page load times.
@@ -332,7 +332,7 @@ const blogPosts: Post[] = [
   },
   {
     id: 10,
-    image: "/image.jpg",
+    image: "/id10.jpg",
     title: "Testing with Jest",
     content: `Web accessibility is the practice of ensuring that websites and web applications are usable by as many people as possible, including those with disabilities. Accessible web design improves the user experience for everyone, regardless of their abilities or limitations.
 
